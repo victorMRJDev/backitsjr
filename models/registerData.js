@@ -17,7 +17,7 @@ const { db } = require('../db/connection');
             },
             sensorf_tres:{
                 type: DataTypes.DOUBLE
-            },
+            },           
             presion:{
                 type: DataTypes.DOUBLE
             },
@@ -29,7 +29,10 @@ const { db } = require('../db/connection');
             },
             updatedAt:{
                 type: DataTypes.DATE
-            }
+            },
+            sesorf_cuatro:{
+                type: DataTypes.DOUBLE
+            },
         }, {tablename: 'registers'}
     )
     // return DataSchema;
