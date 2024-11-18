@@ -33,6 +33,9 @@ const { db } = require('../db/connection');
             sesorf_cuatro:{
                 type: DataTypes.DOUBLE
             },
+            // fuga:{
+            //     type: DataTypes.INTEGER
+            // }
         }, {tablename: 'registers'}
     )
     // return DataSchema;

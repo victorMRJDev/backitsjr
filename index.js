@@ -29,6 +29,8 @@ app.use(express.json());
 //Rutas
 
 app.use('/api/register', require('./routes/register'));
+app.use('/api/getParams', require('./routes/register'));
+
 
 
 //Escuchar peticiones
